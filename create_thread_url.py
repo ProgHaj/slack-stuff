@@ -1,4 +1,4 @@
-# input: url to archived message and the id of the used slack
+# input: url to archived message
 # outputs: thread-url to append to any slack url of the slack with the archived message
 
 # example of a slack url with a thread open:
