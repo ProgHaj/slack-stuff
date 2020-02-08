@@ -10,7 +10,7 @@
 
 import sys
 
-def extract(url, slack_id=None):
+def extract(url):
     channel, message = url.split("/")[-2:]
     return "/thread/{}-{}.{}".format(channel, message[1:11], message[11:])
 
